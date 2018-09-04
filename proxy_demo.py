@@ -36,7 +36,7 @@ prefs = {
 }
 chrome_options.add_experimental_option('prefs', prefs)
 
-proxy = 'http://104.245.96.105:19012'
+proxy = 'http://192.168.0.1:19012'
 chrome_options.add_argument('--proxy-server=%s' % proxy)
 driver = webdriver.Chrome(executable_path=path, chrome_options=chrome_options)
 
@@ -74,7 +74,7 @@ profile = FirefoxProfile()
 # 激活手动代理配置（对应着在 profile（配置文件）中设置首选项）
 profile.set_preference("network.proxy.type", 1)
 # ip及其端口号配置为 http 协议代理
-profile.set_preference("network.proxy.http", "104.245.96.105")
+profile.set_preference("network.proxy.http", "192.168.0.1")
 profile.set_preference("network.proxy.http_port", 19012)
 profile.set_preference('permissions.default.image', 2)
 
