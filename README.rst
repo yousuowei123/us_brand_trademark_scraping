@@ -1,4 +1,4 @@
-TESS brand trademark script
+TESS Brand Trademark Script
 ===========================
 
 TESS --> Trademark Electronic Search System
@@ -23,7 +23,7 @@ Test Case
 - case three: no results
 
 
-conclusion :
+Conclusion :
 ------------
 
 - use selenium to scraping USPTO
